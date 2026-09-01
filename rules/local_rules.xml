@@ -1,0 +1,14 @@
+<group name="ufw,">
+
+  <rule id="100050" level="3">
+    <decoded_as>kernel</decoded_as>
+    <match>UFW BLOCK</match>
+    <description>UFW: Paquete bloqueado por el firewall.</description>
+  </rule>
+
+  <rule id="100051" level="10" frequency="5" timeframe="60">
+    <if_matched_sid>100050</if_matched_sid>
+    <description>UFW: Escaneo de puertos o ataque de fuerza bruta detectado.</description>
+  </rule>
+
+</group>
