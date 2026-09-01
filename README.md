@@ -13,6 +13,6 @@ Proyecto de laboratorio SOC implementado en un entorno virtualizado para la moni
 * Creacion de reglas personalizadas básicas en Wazuh para la detección de escaneos de red (Nmap) y ataques de fuerza bruta (Hydra).
 
 ## Evidencias y Documentación
-* Consulta el informe técnico detallado en la carpeta [`/docs/informe_soc.md`](docs/informe_soc.md).
-* Revisa el código de las reglas personalizadas en [`/rules/local_rules.xml`](rules/local_rules.xml).
-* Las capturas de pantalla del panel de alertas se encuentran en la carpeta [`/img/`](img/).
+* **Informe Técnico Oficial**: Puedes consultar el análisis L1 completo en formato PDF en la ruta [`/docs/Informe_SOC_L1_Wazuh.pdf`](docs/Informe_SOC_L1_Wazuh.pdf).
+* **Reglas Personalizadas**: El código fuente de las reglas de detección se encuentra en la carpeta [`/rules/`](rules/).
+* **Capturas de Evidencias**: Las imágenes del panel de Wazuh están alojadas en la carpeta [`/img/`](img/).
